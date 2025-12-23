@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "blue_select_theme"
+version = "1.0.0"
+name = "Blue Select"
+tagline = "Consistent selection and improved viewport vireframe visibility"
+maintainer = "Martynas Žiemys"
+type = "theme"
+
+tags = ["Dark"]
+
+blender_version_min = "5.0.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
