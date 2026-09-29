@@ -7,6 +7,7 @@
         icon_alpha="1"
         icon_saturation="0.5"
         widget_emboss="#00000000"
+        link="#6fa9e6ff"
         editor_border="#242424"
         editor_outline="#ff00ff00"
         editor_outline_active="#2d559629"
@@ -27,17 +28,17 @@
         axis_z="#2890ff"
         axis_w="#edba18"
         gizmo_hi="#ffffff"
-        gizmo_primary="#b0ae58"
+        gizmo_primary="#fff900"
         gizmo_secondary="#63ffff"
         gizmo_view_align="#ffffff"
         gizmo_a="#4da84d"
         gizmo_b="#a33535"
-        icon_scene="#ccccccff"
+        icon_scene="#ffffffff"
         icon_collection="#ccccccff"
         icon_object="#99c0ffff"
         icon_object_data="#cc9b52ff"
         icon_modifier="#18a4a4ff"
-        icon_shading="#5ab35dff"
+        icon_shading="#50e650ff"
         icon_folder="#998c6dff"
         icon_autokey="#ab3c48ff"
         icon_border_intensity="0"
@@ -268,8 +269,8 @@
         </wcol_menu_back>
         <wcol_pie_menu>
           <ThemeWidgetColors
-            outline="#ff00ff00"
-            outline_sel="#ff00ff00"
+            outline="#303030ff"
+            outline_sel="#303030ff"
             inner="#353535ff"
             inner_sel="#4772b3ff"
             item="#4772b3ff"
@@ -364,7 +365,7 @@
         </wcol_list_item>
         <wcol_state>
           <ThemeWidgetStateColors
-            error="#771111ff"
+            error="#991616ff"
             warning="#ac8737ff"
             info="#335180ff"
             success="#188625ff"
@@ -488,10 +489,13 @@
     <view_3d>
       <ThemeView3D
         grid="#80808080"
+        grid_major="#545454ff"
+        grid_axis_brightness="0.46"
         clipping_border_3d="#3b3b3bff"
         wire="#404040"
         wire_edit="#806226"
         edge_width="1"
+        gp_wire_edit="#99999980"
         gp_vertex="#fff0d9"
         gp_vertex_select="#5e75c4"
         gp_vertex_size="2"
@@ -504,7 +508,7 @@
         speaker="#992600"
         vertex="#fff0d9"
         vertex_select="#5e75c4"
-        vertex_size="1"
+        vertex_size="3"
         edge_select="#95a7e6"
         edge_mode_select="#95a7e6"
         face="#fff1e305"
@@ -516,7 +520,7 @@
         bevel="#00ff00"
         seam="#ff0000"
         sharp="#000000"
-        crease="#ff00ff"
+        crease="#25ff00"
         freestyle="#ffff0033"
         extra_edge_len="#000000"
         extra_edge_angle="#000000"
@@ -648,7 +652,9 @@
         keyframe_border_selected="#3b3b3bff"
         keyframe_scale_factor="1"
         summary="#5b5b5b66"
-        interpolation_line="#8bdc00cc"
+        anim_interpolation_linear="#94e575cc"
+        anim_interpolation_constant="#e59c7bcc"
+        anim_interpolation_other="#5dbabeb3"
         simulated_frames="#721e65ff"
         >
         <space>
@@ -800,29 +806,29 @@
         wire_inner="#8d8d8d"
         wire_select="#66a1ff99"
         node_backdrop="#464646ff"
-        converter_node="#1f4d4d"
-        color_node="#7a732b"
-        group_node="#262626"
-        group_socket_node="#262626"
+        converter_node="#225454"
+        color_node="#8c810e"
+        group_node="#2e2e2e"
+        group_socket_node="#2e2e2e"
         frame_node="#26262680"
-        matte_node="#1f4d4d"
-        distor_node="#1f4d4d"
+        matte_node="#225454"
+        distor_node="#225454"
         noodle_curving="6"
         grid_levels="0"
         dash_alpha="0.5"
-        input_node="#262626"
-        output_node="#262626"
-        filter_node="#1f4d4d"
-        vector_node="#342d59"
-        texture_node="#734523"
-        shader_node="#1b571a"
-        script_node="#262626"
+        input_node="#2e2e2e"
+        output_node="#2e2e2e"
+        filter_node="#225454"
+        vector_node="#503d99"
+        texture_node="#734023"
+        shader_node="#388c38"
+        script_node="#2e2e2e"
         geometry_node="#735f3a"
         attribute_node="#1d3d54"
-        simulation_zone="#1f4d4d1a"
-        repeat_zone="#8058331a"
-        foreach_geometry_element_zone="#c64f4f1a"
-        closure_zone="#7d7d7d33"
+        simulation_zone="#22545433"
+        repeat_zone="#5073521a"
+        foreach_geometry_element_zone="#955e5e1a"
+        closure_zone="#46464633"
         >
         <space>
           <ThemeSpaceGeneric
@@ -891,7 +897,9 @@
       </ThemeInfo>
     </info>
     <preferences>
-      <ThemePreferences>
+      <ThemePreferences
+        match="#4772b3"
+        >
         <space>
           <ThemeSpaceGeneric
             back="#353535"
